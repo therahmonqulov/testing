@@ -65,7 +65,7 @@ input[type="text"]:focus {
 }
 
 /* mobile */
-@media screen and (min-width: 0px) and (max-width: 930px) {
+@media screen and (min-width: 200px) and (max-width: 930px) {
     .main-p {
         text-align: center;
         font-weight: 500 !important;
@@ -412,9 +412,9 @@ input[type="text"]:focus {
 
     /* footer */
     .footer {
-        margin-top: 40px;
+        margin-top: 20px;
         padding: 30px 0px;
-        background-color: #EEEEEE;
+        background-color: #eee;
     }
     .footer-text {
         font-size: 15px;

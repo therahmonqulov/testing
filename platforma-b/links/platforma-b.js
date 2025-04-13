@@ -227,7 +227,7 @@ showForm.style.display = "none";
 // Ismni tekshirish
 function validateName() {
   const nameValue = inputName.value.trim();
-  const nameRegex = /^[A-Za-zÀ-ÿ'-]{2,}$/; // Kamida 2 ta harf va faqat harflar bo‘lishi kerak
+  const nameRegex = /^[A-Za-zÀ-ÿ' -]{2,}$/; // Harflar, apostrof, defis va bo‘shliq ruxsat etiladi
 
   if (!nameRegex.test(nameValue)) {
     nameError.textContent = "❌ Ism faqat harflardan iborat bo‘lishi va kamida 2 ta harf bo‘lishi kerak!";
@@ -239,6 +239,7 @@ function validateName() {
     return true;
   }
 }
+
 
 // telefon raqamni tekshirish
 function validatePhone() {
