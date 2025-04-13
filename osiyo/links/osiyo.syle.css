@@ -69,7 +69,7 @@ input[type="text"]:focus {
     .main-p {
         text-align: center;
         font-weight: 500 !important;
-        padding-top: 10px;
+        padding-top: 15px;
         padding-bottom: 10px;
         color: #000;
     }
@@ -83,7 +83,7 @@ input[type="text"]:focus {
     text-align: center;
     border: 1px solid rgba(173, 216, 230, 0.4);
     max-width: 400px;
-    top: 465px;
+    top: 430px;
     right: 40px;
     }
     .name {
@@ -168,7 +168,7 @@ input[type="text"]:focus {
     .main-text-list {
         border-radius: 25px;
         margin-top: 20px;
-        padding: 20px 25px 20px 10px;
+        padding: 20px 25px 20px 0px;
         margin-bottom: 20px;
     }
     .main-text-list p {
@@ -184,7 +184,7 @@ input[type="text"]:focus {
     .main-text-list li {
         line-height: 1.4;
         color: #000;
-        font-size: 16px;
+        font-size: 15px;
         list-style: none;
         display: flex;
         align-items: flex-start;
@@ -195,7 +195,7 @@ input[type="text"]:focus {
     }
     .main-text-list li img {
         margin-right: 5px;
-        width: 40px;
+        width: 30px;
     }
     .main-button {
         display: none;
@@ -213,7 +213,7 @@ input[type="text"]:focus {
         justify-content: center;
     }
     .mobile-img .first-main-img {
-        width: 300px;
+        width: 260px;
         display: grid;
         align-items: center;
         justify-content: center;
@@ -243,17 +243,17 @@ input[type="text"]:focus {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background: linear-gradient(to left, rgba(122, 219, 188, 0.707), rgb(225, 237, 233));
+        background: linear-gradient(to bottom, rgba(135, 229, 199, 0.681), rgb(225, 237, 233));
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         border-radius: 20px;
         margin-top: -2px;
     }
     #timer {
-        margin: 10px 0px 0px 0px;
         font-weight: 600;
         font-size: 30px;
         color: #000;
+        margin-bottom: 15px;
     }
     .main-button-text {
         display: flex;
@@ -286,7 +286,7 @@ input[type="text"]:focus {
         outline: none;
         border-radius: 20px;
         box-shadow: 0 5px 0 #660000;
-        padding: 25px 60px;
+        padding: 25px 70px;
         margin-bottom: 10px;
     }
     .desktop-img {
@@ -547,7 +547,7 @@ input[type="text"]:focus {
     }
     .main-text-list li {
         line-height: 1.4;
-        font-size: 17px;
+        font-size: 18.5px;
         color: #000;
         list-style: none;
         display: flex;
@@ -561,13 +561,18 @@ input[type="text"]:focus {
     .img-button {
         font-weight: 700;
         font-size: 18px;
-        background-color: #ea2b2b;
+        background: radial-gradient(circle at center, 
+         #FF6363 10%, /* yorqin rang tor sohasi */
+         #FF6363 30%, /* Yorqin rangni kengroq soha */
+        #E05555 60%, 
+         #C04646 100%);
+        backdrop-filter: blur(10px);
         border: none;
         outline: none;
         border-radius: 20px;
         box-shadow: 0 5px 0 #660000;
-        padding: 25px 80px;
-        margin-bottom: 30px;
+        padding: 25px 60px;
+        margin-bottom: 10px;
     }
     .main-button {
         margin-top: 25px;
@@ -575,6 +580,7 @@ input[type="text"]:focus {
     }
     .main-button-text {
         padding: 10px 10px;
+        margin-left: 5px;
     }
     .main-button-text span {
         text-decoration: line-through;
@@ -588,11 +594,13 @@ input[type="text"]:focus {
         color: #000;
     }
     .main-p {
+        margin-left: 60px;
         display: flex;
         justify-content: start;
         font-size: 16px;
         color: #000;
         font-weight: 600;
+        margin-top: 15px;
     }
     .text {
         margin-top: 20px;
