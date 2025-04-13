@@ -204,6 +204,8 @@
         width: 320px;
     }
     .main-button button {
+        display: flex;
+        align-items: center;
         font-weight: 700;
         font-size: 18px;
         background: radial-gradient(circle at center, 
