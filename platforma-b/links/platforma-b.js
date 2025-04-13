@@ -90,7 +90,7 @@ function updatePhoneInput() {
         placeholder = '999-999-9999';
         pattern = '\\d{3}-\\d{3}-\\d{4}';
         maxLength = '12';
-        width = '50px';
+        width = '48px';
         break;
       case 'GER':
         flag = 'https://flagcdn.com/w40/de.png';
