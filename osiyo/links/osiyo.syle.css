@@ -510,7 +510,7 @@ input[type="text"]:focus {
         border-radius: 20px;
         width: 360px;
         padding: 8px 0px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
     .main-text-span2 { 
         font-weight: 600;
@@ -530,12 +530,11 @@ input[type="text"]:focus {
         width: 120%;
         line-height: 1.4;
         font-size: 29px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
     .main-text-list {
         border-radius: 25px;
         width: 90%;
-        margin-top: 30px;
         padding: 20px 0px;
     }
     .main-text-list p {
@@ -571,7 +570,7 @@ input[type="text"]:focus {
         outline: none;
         border-radius: 20px;
         box-shadow: 0 5px 0 #660000;
-        padding: 25px 60px;
+        padding: 25px 100px;
         margin-bottom: 10px;
     }
     .main-button {
@@ -594,7 +593,7 @@ input[type="text"]:focus {
         color: #000;
     }
     .main-p {
-        margin-left: 60px;
+        margin-left: 100px;
         display: flex;
         justify-content: start;
         font-size: 16px;

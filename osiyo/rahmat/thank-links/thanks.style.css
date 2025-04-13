@@ -137,7 +137,6 @@
 /* desktop */
 @media screen and (min-width: 750px) and (max-width: 1600px) {
     body {
-        background-image: url("../img/thank-you-bg.png");
         background-position: center;
         background-color: #f4f4f8;
     }
@@ -187,7 +186,7 @@
     .main-text-list li {
         line-height: 1.6;
         text-align: center;
-        width: 90%;
+        width: 60%;
         font-size: 20px;
         list-style: none;
         display: flex;
@@ -196,15 +195,14 @@
         color: #000;
     }
     .main-text-list img {
-        margin: 20px 0px;
-        width: 350px;
+        margin: 10px 0px;
+        width: 320px;
     }
     .main-button button {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 320px;
-        padding: 20px 5px;
+        padding: 20px 60px;
         border-radius: 50px;
         border: none;
         background-color: #3b84d8;
