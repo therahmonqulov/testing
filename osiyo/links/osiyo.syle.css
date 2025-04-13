@@ -175,8 +175,9 @@ input[type="text"]:focus {
         font-weight: 700;
         margin-top: 5px;
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
         color: #000;
+        margin-left: 20px;
     }
     .main-text-li ul {
         width: 100%;
@@ -184,7 +185,7 @@ input[type="text"]:focus {
     .main-text-list li {
         line-height: 1.4;
         color: #000;
-        font-size: 15px;
+        font-size: 16px;
         list-style: none;
         display: flex;
         align-items: flex-start;
@@ -194,7 +195,7 @@ input[type="text"]:focus {
         margin-bottom: 5px;
     }
     .main-text-list li img {
-        margin-right: 5px;
+        margin-right: 8px;
         width: 30px;
     }
     .main-button {
