@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./osiyo/links/osiyo.syle.css">
+    <title>Osiyo Ismailova</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">
+            <div class="main-text-center">
+                <div class="main-text">
+                    <span class="main-text-span2">25-26-27-yanvar | 20:00 UZB</span>
+                </div>
+            </div>
+            <div class="main-text-h1">
+                <h1>Ushbu 5 ta Ko'pchilik Bilmaydigan Xatolar Ayollarni Kundan-kunga Semirtiradi.</h1>
+            </div>
+            <div class="header-p">
+                <p>Siz Qay Birini Qilyapsiz? Bepul Masterklassda Bilib Oling.</p>
+            </div>
+            <div class="mobile-img">
+                <img src="./osiyo/pic/mabile-main-img.png" alt="" class="first-main-img">
+                <div class="profile-card" style="position: absolute;">
+                    <p class="name">Osiyo Ismailova</p>
+                    <p class="title">Endokrinolog & Dietolog</p>
+                </div>
+            </div>
+            <div class="mobile-text">
+                <div class="main-button-text">
+                    <span>999.000 so'm</span>
+                    <br>
+                    <p>BEPUL</p>
+                </div>
+                <div class="main-button-button">
+                    <button class="img-button">ISHTIROK ETISH</button>
+                </div>
+                <div id="timer">02:00</div>
+                <p class="main-p" id="main-p">Shoshiling! Joylar soni oz qoldi</p>
+            </div>
+            <div class="main-text-list">
+                <p>3 kunlik master-klassda</p>
+                <ul>
+                    <li><img src="./osiyo/pic/img.png" alt="">Qayta semirmaslikni kafolotlovchi garmonlarning sirli
+                        formulasini</li>
+                    <li><img src="./osiyo/pic/img.png" alt="">Ishtahani ochuvchi garmonlarni, uy sharoitida o’z normasiga
+                        qaytarishni</li>
+                    <li><img src="./osiyo/pic/img.png" alt="">Tug’ruqdan keyingi semizlikdan, sport va dietasiz qutilish
+                        bepulga o’rganasiz</li>
+                </ul>
+            </div>
+            <div class="mobile-text" style="background: none; border: none">
+                <div class="main-button-button, show-button">
+                    <button class="img-button">ISHTIROK ETISH</button>
+                </div>
+            </div>
+            <div class="main-button">
+                <div class="main-button-button, show-button">
+                    <button class="img-button">ISHTIROK ETISH</button>
+                </div>
+                <div class="main-button-text">
+                    <span>999.000 so'm</span>
+                    <br>
+                    <p>BEPUL</p>
+                </div>
+            </div>
+            <p class="main-p" style="text-align: center;">Shoshiling! Joylar soni oz qoldi</p>
+        </div>
+
+        <div class="desktop-img">
+            <img src="./osiyo/pic/main-img.png" alt="" class="first-main-img">
+            <div class="profile-card">
+                <p class="name">Osiyo Ismailova</p>
+                <p class="title">Endokrinolog & Dietolog</p>
+            </div>
+        </div>
+
+        <!-- form -->
+        <div class="form">
+            <button class="f-button"><i class="fa-solid fa-xmark"></i></button>
+            <div class="form-container">
+                <div class="form-h1">
+                    <h1>Davom etish uchun quyidagi formani to'ldiring.</h1>
+                </div>
+                <form id="form" name="contact-form" novalidate>
+                    <div class="hide-form-div">
+                        <label for="name">Ismingizni kiriting:</label>
+                        <input type="text" id="name" name="name">
+                        <label for="phone">Telefon raqamingiz:</label>
+                        <div class="phone-input">
+                            <img id="flag" src="./img/flags/uz.png" alt="Bayroq">
+                            <select id="country" onchange="updateFlag()">
+                                <option value="UZ" data-maxlength="12">
+                                    (+998) O'zbekistan
+                                </option>
+                                <option value="KRZ" data-maxlength="11">
+                                    (+996) Qirg'iziston
+                                </option>
+                                <option value="TJK" data-maxlength="11">
+                                    (+992) Tojikiston
+                                </option>
+                                <option value="TK" data-maxlength="11">
+                                    (+993) Turkmaniston
+                                </option>
+                                <option value="KZ" data-maxlength="12">
+                                    (+7) Qozoqiston
+                                </option>
+                                <option value="RU" data-maxlength="13">
+                                    (+7) Rossiya
+                                </option>
+                                <option value="GER" data-maxlength="12">
+                                    (+49) Germaniya
+                                </option>
+                                <option value="TUR" data-maxlength="11">
+                                    (+90) Turkiya
+                                </option>
+                                <option value="BEL" data-maxlength="12">
+                                    (+375) Belarussiya
+                                </option>
+                                <option value="UKI" data-maxlength="12">
+                                    (+380) Ukraina
+                                </option>
+                                <option value="US" data-maxlength="12">
+                                    (+1) AQSH
+                                </option>
+                            </select>
+                            <input type="tel" id="phone" name="phone" placeholder="99-999-99-99"
+                                pattern="\d{2}-\d{3}-\d{2}-\d{2}" maxlength="12">
+                        </div>
+                        <p class="warning-p">❌ Telefon raqam mos emas!</p>
+                        <button type="submit" class="submit-button">DAVOM ETISH</button>
+                    </div>
+                </form>
+                <div class="show-form-div" id="loadingDiv">
+                    <p>Kuting, keyingi sahifa ochilmoqda<span class="dots"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-text">
+            <span class="D-name">Osiyo Ismailova</span>
+            <br>
+            <a href="tel:+998978 113 19 00"><button>+9989 78 113 19 00</button></a>
+            <ul>
+                <li>This site or product is not part of or endorsed by Facebook, Google, or any social media platform in
+                    any way FACEBOOK is a trademark of META PLATFORMS, Inc. YOUTUBE and GOOGLE are trademarks of
+                    ALPHABET, Inc.</li>
+            </ul>
+            <p>Barcha huquqlar himoyalangan, 2025.</p>
+        </div>
+    </div>
+
+    <script src="./osiyo/links/osiyo.script.js"></script>
+</body>
+
+</html>
