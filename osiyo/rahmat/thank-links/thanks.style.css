@@ -50,7 +50,7 @@
     .main-text-list li {
         padding: 0px 20px;
         line-height: 1.5;
-        font-size: 17px;
+        font-size: 16px;
         list-style: none;
         display: flex;
         align-items: center;
@@ -61,7 +61,6 @@
         margin-bottom: 50px;
     }
     .main-text-list img {
-        margin-bottom: 10px;
         width: 80%;
     }
     .main-button {
@@ -73,7 +72,7 @@
         display: flex;
         align-items: center;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 14px;
         background: radial-gradient(circle at center, 
         #FF6363 10%, /* yorqin rang tor sohasi */
         #FF6363 30%, /* Yorqin rangni kengroq soha */
@@ -82,9 +81,9 @@
         backdrop-filter: blur(10px);
         border: none;
         outline: none;
-        border-radius: 20px;
+        border-radius: 50px;
         box-shadow: 0 5px 0 #660000;
-        padding: 25px 50px;
+        padding: 15px 60px;
         margin-bottom: 10px;
     }
     .main-button button:hover {

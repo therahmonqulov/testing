@@ -195,6 +195,7 @@ input[type="text"]:focus {
         margin-bottom: 5px;
     }
     .main-text-list li img {
+        margin-top: 5px;
         margin-right: 8px;
         width: 30px;
     }
