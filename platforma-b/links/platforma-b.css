@@ -74,7 +74,7 @@ input[type="text"]:focus {
 @media screen and (min-width: 300px) and (max-width: 930px) {
     .container {
         display: flex;
-        width: 85%;
+        width: 90%;
         margin: auto;
     }
     body {
@@ -130,20 +130,17 @@ input[type="text"]:focus {
     }
     .main-text-list {
         border-radius: 25px;
-        margin-top: 30px;
         background-color: #ffd4bb;
         padding: 20px 25px 20px 10px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
+        margin-top: 5px;
     }
     .main-text-list p {
         font-weight: 700;
         margin-top: 5px;
         text-align: center;
-        font-size: 14px;
+        font-size: 17px;
         color: #000;
-    }
-    .main-text-li ul {
-        width: 100%;
     }
     .main-text-list li {
         line-height: 1.4;
@@ -200,7 +197,7 @@ input[type="text"]:focus {
     }
     .mobile-text-p {
         margin: 15px 0px;
-        font-size: 36px;
+        font-size: 34px;
         color: #000;
         font-weight: 700;
         background: none !important;
@@ -342,7 +339,7 @@ input[type="text"]:focus {
 
     /* footer */
     .footer {
-        margin-top: 40px;
+        margin-top: 20px;
         padding: 30px 0px;
         background-color: #000;
     }
