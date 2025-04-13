@@ -537,7 +537,7 @@ input[type="text"]:focus {
     .main-text-list {
         border-radius: 25px;
         width: 90%;
-        padding: 20px 0px;
+        padding: 20px 39px 20px 0px;
     }
     .main-text-list p {
         font-style: italic;
@@ -556,6 +556,7 @@ input[type="text"]:focus {
         margin-top: 20px;
     }
     .main-text-list li img {
+        margin-top: 5px;
         margin-right: 8px;
         width: 30px;
     }
@@ -587,7 +588,7 @@ input[type="text"]:focus {
         text-decoration: line-through;
         font-size: 19px;
         font-weight: 600;
-        color: red;
+        color: #c53434;
     }
     .main-button p {
         font-weight: 700;
@@ -595,7 +596,7 @@ input[type="text"]:focus {
         color: #000;
     }
     .main-p {
-        margin-left: 100px;
+        margin-left: 90px;
         display: flex;
         justify-content: start;
         font-size: 16px;
