@@ -265,7 +265,7 @@ buttonS.addEventListener('click', () => {
 });
 
 // submit funksiyasi
-submitForm.addEventListener('submit', async (e) => {
+submitForm.addEventListener('submit', (e) => {
   e.preventDefault();
 
   if (!validateName() || !validatePhone()) {
@@ -275,24 +275,20 @@ submitForm.addEventListener('submit', async (e) => {
   let name = inputName.value.trim();
   let phone = inputPhone.value.trim();
 
-  try {
-    await fetch(scriptURL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, phone }),
-      mode: 'no-cors'
-    });
+  // Sahifani kutmasdan o‘zgartiramiz
+  window.location.assign("./thank-you-page.html");
 
-    // Thank-you sahifasidan qaytganda sahifani yangilash uchun
-    sessionStorage.setItem('reloadAfterThankYou', 'true');
-
-    // Thank-you sahifasiga o'tish
-    window.location.href = "./thank-you.html";
-
-  } catch (error) {
-    alert("❌ Ma'lumotlarni yuborishda xatolik yuz berdi. Iltimos, qayta urinib ko'ring.\nXatolik: " + error.message);
-  }
+  // Fetch'ni fon rejimida ishga tushuramiz
+  fetch(scriptURL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name, phone }),
+    mode: 'no-cors'
+  }).catch((error) => {
+    console.error("Yuborishda xatolik:", error);
+  });
 });
+
 
 // sahifa yuklanganda qaytdimi yoki yo‘qmi tekshiramiz
 window.addEventListener('load', () => {
