@@ -18,6 +18,9 @@
 
 /* mobile */
 @media screen and (min-width: 300px) and (max-width: 750px) {
+    .container {
+        height: 100vh;
+    }
     body {
         background-image: url(../thanks-pic/thank-you-bg.png);
         background-color: #f4f4f8;

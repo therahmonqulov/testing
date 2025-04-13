@@ -9,19 +9,15 @@
 .container {
     position: relative;
     width: 90%;
-    margin: auto;
-}
-
-@media screen and (min-width: 0px) and (max-width: 299px)  {
-    .main-text-h1 h1 {
-        font-size: 20px;
-    }
+    margin: auto;;
 }
 
 /* mobile */
 @media screen and (min-width: 300px) and (max-width: 750px) {
+    .container {
+        height: 100vh;
+    }
     body {
-        background-image: url(../img/thank-you-bg.png);
         background-color: #f4f4f8;
         display: flex;
         flex-direction: column;
@@ -72,7 +68,7 @@
         display: flex;
         align-items: center;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 13px;
         background: radial-gradient(circle at center, 
         #FF6363 10%, /* yorqin rang tor sohasi */
         #FF6363 30%, /* Yorqin rangni kengroq soha */
