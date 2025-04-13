@@ -276,7 +276,7 @@ submitForm.addEventListener('submit', (e) => {
   let phone = inputPhone.value.trim();
 
   // Sahifani kutmasdan o‘zgartiramiz
-  window.location.assign("./thank-you-page.html");
+  window.location.assign("./thank-you.html");
 
   // Fetch'ni fon rejimida ishga tushuramiz
   fetch(scriptURL, {
