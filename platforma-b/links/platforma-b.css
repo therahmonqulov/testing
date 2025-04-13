@@ -392,7 +392,6 @@ input[type="text"]:focus {
         display: flex;
         width: 85%;
         margin: auto;
-        height: 100vh;
     }
 
     .main-text {
@@ -467,10 +466,8 @@ input[type="text"]:focus {
         margin: 25px 0px;
     }
     .text {
+        margin-top: 55px;
         width: 70%;
-        position: absolute;
-        bottom: 1%;
-        left: 5%;
     }
     .first-main-img {
         position: absolute;
