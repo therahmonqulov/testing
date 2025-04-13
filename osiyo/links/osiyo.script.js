@@ -316,7 +316,7 @@ submitForm.addEventListener('submit', async (e) => {
     sessionStorage.setItem('reloadAfterThankYou', 'true');
 
     // Thank-you sahifasiga o'tish
-    window.location.assign("./osiyo/thank-you.html");
+    window.location.assign("./thank-you-page.html");
 
   } catch (error) {
     alert("❌ Ma'lumotlarni yuborishda xatolik yuz berdi. Iltimos, qayta urinib ko'ring.\nXatolik: " + error.message);
